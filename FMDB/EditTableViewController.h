@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StudentModel.h"
+#import <FMDatabase.h>
 
 @interface EditTableViewController : UITableViewController
+
+@property (nonatomic, strong) StudentModel *model;
+@property (nonatomic, strong) FMDatabase *dataBase;
 
 @end

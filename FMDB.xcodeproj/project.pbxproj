@@ -13,6 +13,13 @@
 		3F61120520F06955006AF0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61120420F06955006AF0ED /* Assets.xcassets */; };
 		3F61120820F06955006AF0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F61120620F06955006AF0ED /* LaunchScreen.storyboard */; };
 		3F61120B20F06955006AF0ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61120A20F06955006AF0ED /* main.m */; };
+		3F61148220F06B7D00F43203 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61148120F06B7D00F43203 /* StudentModel.m */; };
+		3F61148420F06C8800F43203 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F61148320F06C8800F43203 /* libsqlite3.0.tbd */; };
+		3F61148720F0720A00F43203 /* AddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61148620F0720A00F43203 /* AddTableViewController.m */; };
+		3F6D6BE721846C6F0062202C /* ZFJSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D6BE421846C6E0062202C /* ZFJSqliteTool.m */; };
+		3F6D6BE821846C6F0062202C /* ZFJSqliteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D6BE521846C6E0062202C /* ZFJSqliteOperation.m */; };
+		3FAA8EF720F4630400C87DB0 /* EditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA8EF620F4630400C87DB0 /* EditTableViewController.m */; };
+		6575272BFA89E06F5798A772 /* libPods-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 476D85BC235A2776A9D7C83B /* libPods-FMDB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		3F61120720F06955006AF0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F61120920F06955006AF0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F61120A20F06955006AF0ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F61148020F06B7D00F43203 /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		3F61148120F06B7D00F43203 /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		3F61148320F06C8800F43203 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3F61148520F0720A00F43203 /* AddTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTableViewController.h; sourceTree = "<group>"; };
+		3F61148620F0720A00F43203 /* AddTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTableViewController.m; sourceTree = "<group>"; };
+		3F6D6BE321846C6E0062202C /* ZFJSqliteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJSqliteOperation.h; sourceTree = "<group>"; };
+		3F6D6BE421846C6E0062202C /* ZFJSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJSqliteTool.m; sourceTree = "<group>"; };
+		3F6D6BE521846C6E0062202C /* ZFJSqliteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJSqliteOperation.m; sourceTree = "<group>"; };
+		3F6D6BE621846C6E0062202C /* ZFJSqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJSqliteTool.h; sourceTree = "<group>"; };
+		3FAA8EF520F4630400C87DB0 /* EditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTableViewController.h; sourceTree = "<group>"; };
+		3FAA8EF620F4630400C87DB0 /* EditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTableViewController.m; sourceTree = "<group>"; };
+		476D85BC235A2776A9D7C83B /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B67B505B7492899C5E8DA4 /* Pods-FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F267CE92CAF39AD7703EF1 /* Pods-FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F61148420F06C8800F43203 /* libsqlite3.0.tbd in Frameworks */,
+				6575272BFA89E06F5798A772 /* libPods-FMDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				3F6111FA20F06955006AF0ED /* FMDB */,
 				3F6111F920F06955006AF0ED /* Products */,
+				7F0C4CEDCE3F440F33E6E6B3 /* Pods */,
+				90EFFE251CCA514E4E316D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +83,17 @@
 		3F6111FA20F06955006AF0ED /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				3F6D6BE221846C6E0062202C /* ZFJSqliteKit */,
 				3F6111FB20F06955006AF0ED /* AppDelegate.h */,
 				3F6111FC20F06955006AF0ED /* AppDelegate.m */,
 				3F6111FE20F06955006AF0ED /* ViewController.h */,
 				3F6111FF20F06955006AF0ED /* ViewController.m */,
+				3F61148520F0720A00F43203 /* AddTableViewController.h */,
+				3F61148620F0720A00F43203 /* AddTableViewController.m */,
+				3FAA8EF520F4630400C87DB0 /* EditTableViewController.h */,
+				3FAA8EF620F4630400C87DB0 /* EditTableViewController.m */,
+				3F61148020F06B7D00F43203 /* StudentModel.h */,
+				3F61148120F06B7D00F43203 /* StudentModel.m */,
 				3F61120120F06955006AF0ED /* Main.storyboard */,
 				3F61120420F06955006AF0ED /* Assets.xcassets */,
 				3F61120620F06955006AF0ED /* LaunchScreen.storyboard */,
@@ -71,6 +103,35 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
+		3F6D6BE221846C6E0062202C /* ZFJSqliteKit */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D6BE321846C6E0062202C /* ZFJSqliteOperation.h */,
+				3F6D6BE521846C6E0062202C /* ZFJSqliteOperation.m */,
+				3F6D6BE621846C6E0062202C /* ZFJSqliteTool.h */,
+				3F6D6BE421846C6E0062202C /* ZFJSqliteTool.m */,
+			);
+			path = ZFJSqliteKit;
+			sourceTree = "<group>";
+		};
+		7F0C4CEDCE3F440F33E6E6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B67B505B7492899C5E8DA4 /* Pods-FMDB.debug.xcconfig */,
+				E9F267CE92CAF39AD7703EF1 /* Pods-FMDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90EFFE251CCA514E4E316D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F61148320F06C8800F43203 /* libsqlite3.0.tbd */,
+				476D85BC235A2776A9D7C83B /* libPods-FMDB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F61120E20F06955006AF0ED /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
+				7C14969D848A4D2871039486 /* [CP] Check Pods Manifest.lock */,
 				3F6111F420F06955006AF0ED /* Sources */,
 				3F6111F520F06955006AF0ED /* Frameworks */,
 				3F6111F620F06955006AF0ED /* Resources */,
@@ -137,12 +199,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C14969D848A4D2871039486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F6111F420F06955006AF0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6D6BE721846C6F0062202C /* ZFJSqliteTool.m in Sources */,
+				3F61148720F0720A00F43203 /* AddTableViewController.m in Sources */,
+				3FAA8EF720F4630400C87DB0 /* EditTableViewController.m in Sources */,
 				3F61120020F06955006AF0ED /* ViewController.m in Sources */,
+				3F6D6BE821846C6F0062202C /* ZFJSqliteOperation.m in Sources */,
+				3F61148220F06B7D00F43203 /* StudentModel.m in Sources */,
 				3F61120B20F06955006AF0ED /* main.m in Sources */,
 				3F6111FD20F06955006AF0ED /* AppDelegate.m in Sources */,
 			);
@@ -218,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,29 +364,33 @@
 		};
 		3F61120F20F06955006AF0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B67B505B7492899C5E8DA4 /* Pods-FMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = FMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koushutianxia.FMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3F61121020F06955006AF0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F267CE92CAF39AD7703EF1 /* Pods-FMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = FMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koushutianxia.FMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

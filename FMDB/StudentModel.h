@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface StudentModel : NSObject
+    
+@property (nonatomic, strong) NSString *ID;
+@property (nonatomic, strong) NSString *userID;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *sex;
+@property (nonatomic, strong) NSString *age;
 
 @end
